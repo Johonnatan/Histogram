@@ -9,7 +9,7 @@ library(readr)
 library(psych)
 
 #Carregar base de dados
-dados <- read.csv("winequality-red.csv")
+dados <- read.csv(file.choose())
 
 #Verificar classe
 class(dados)
