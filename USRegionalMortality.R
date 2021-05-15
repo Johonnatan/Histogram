@@ -1,6 +1,9 @@
 #Limpar variáveis
 rm(list=ls(all=TRUE))
 
+#Instalar pacotes
+install.packages("caret", dependencies = TRUE)
+
 #Carregar biblioteca CARET
 library(caret)
 
